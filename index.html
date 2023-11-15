@@ -1,0 +1,10 @@
+pipeline{
+    agent {label "my-test-hari"}
+    stages{
+        stage("this id for test"){
+            steps{
+                sh "echo this is my page"
+            }
+        }
+    }
+}
